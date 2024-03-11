@@ -1,0 +1,37 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background: #1D1D1D;
+  padding: 10rem;
+  height: 100%;
+}
+
+.container-skills {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 20px 5px;
+  padding: 3rem;
+  margin-top: 2rem;
+  border: 2px solid;
+  border-radius: 1rem;
+}
+
+.skills h1{
+  color: #98BAC4;
+  font-size: 36px;
+}
+
+.container-skills img {
+  height: 50px;
+  width: 50px;
+  margin: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .container-skills {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+}

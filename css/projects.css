@@ -1,0 +1,76 @@
+.tela-projetos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #303030;
+  padding: 10rem;
+  height: 100%;
+}
+
+.projetos ul{
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  gap: 20px 5px;
+  padding: 3rem;
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.tela-projetos h1{
+  color: #98BAC4;
+  font-size: 36px;
+}
+
+.projetos ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  text-align: center;
+}
+
+.projetos ul li img {
+  height: 300px;
+  width: 350px;
+  border-radius: 1rem;
+}
+
+.projetos ul li h2 {
+  color: #3EA6C2;
+  margin: 1rem;
+}
+
+.projetos ul li p {
+  color: #dfdede;
+  margin: 1rem;
+}
+
+.projetos ul li a {
+  text-decoration: none;
+  color: #98BAC4;
+  border: 1px solid;
+  border-color: #98BAC4;
+  padding: 5px;
+  border-radius: 1rem;
+  margin-bottom: .5rem;
+  width: 100px;
+  margin-top: .5rem;
+}
+
+@media (max-width: 1100px) {
+  .projetos ul {
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .projetos ul li img {
+  height: 150px;
+  width: 200px;
+  border-radius: 1rem;
+  }
+}
+  

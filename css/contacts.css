@@ -1,0 +1,83 @@
+.contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1D1D1D;
+  padding: 5rem;
+  height: 100%;
+}
+
+.contato h1{
+  color: #98BAC4;
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.form ul li {
+  list-style: none;
+  border: 1px solid;
+  border-color: #98BAC4;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.form ul li button {
+  padding: 1rem;
+  border: 1px solid;
+  border-color: #98BAC4;
+  background: transparent;
+  border: none;
+  color: #98BAC4;
+  text-decoration: none;
+  width: 200px;
+  font-size: 20px;
+}
+
+.form ul li button:hover{
+  cursor: pointer;
+  background: #98BAC4;
+  color: #1D1D1D;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background: #303030;
+}
+
+footer h1{
+  color: #98BAC4;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+footer h3{
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+footer h4{
+  color: #98BAC4;
+  font-size: 10px;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 430){
+  footer h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+}

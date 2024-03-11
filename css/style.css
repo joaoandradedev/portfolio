@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #1D1D1D;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #303030;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #98BAC4;
+  border-radius: 20px;
+  border: 3px solid #303030;
+}
