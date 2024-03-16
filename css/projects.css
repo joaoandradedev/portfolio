@@ -71,6 +71,11 @@
   margin-top: .5rem;
 }
 
+.projetos ul li a:hover {
+  background: #98BAC4;
+  color: #303030;
+}
+
 @media (max-width: 1400px) {
   .projetos ul {
     grid-template: repeat(1, 1fr) / repeat(1, 1fr);
