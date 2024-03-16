@@ -31,9 +31,21 @@
   text-align: center;
 }
 
-.projetos ul li img {
+.projetos ul li .web {
   height: 300px;
   width: 400px;
+  border-radius: 1rem;
+}
+
+.projetos ul li .phone {
+  height: 400px;
+  width: 300px;
+  border-radius: 1rem;
+}
+
+.projetos ul li .phone-biscoito {
+  height: 400px;
+  width: 270px;
   border-radius: 1rem;
 }
 
