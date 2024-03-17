@@ -29,6 +29,10 @@
   align-items: center;
   margin: 1rem;
   text-align: center;
+  background: transparent;
+  border: 2.5px solid #98BAC4;
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
 
 .projetos ul li .web {
