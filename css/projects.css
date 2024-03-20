@@ -43,23 +43,22 @@
 }
 
 .projetos ul li .phone {
-  height: 400px;
+  height: 410px;
   width: 300px;
   border-radius: 1rem;
 }
 
 .projetos ul li .phone-biscoito {
-  height: 400px;
+  height: 410px;
   width: 270px;
   border-radius: 1rem;
 }
 
 .projetos ul li .phone-movie {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  height: 380px;
-  width: 250px;
+  height: 400px;
+  width: 270px;
   border-radius: 1rem;
+  margin-bottom: 7px;
 }
 
 .projetos ul li h2 {
@@ -89,6 +88,7 @@
   color: #303030;
 }
 
+
 @media (max-width: 1400px) {
   .projetos ul {
     grid-template: repeat(1, 1fr) / repeat(1, 1fr);
@@ -101,6 +101,11 @@
   height: 150px;
   width: 200px;
   border-radius: 1rem;
-  }
+  }  
 }
   
+@media (max-width: 550px) {
+  .projetos ul li {
+    border: none;
+  }
+}
