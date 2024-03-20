@@ -54,6 +54,14 @@
   border-radius: 1rem;
 }
 
+.projetos ul li .phone-movie {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 380px;
+  width: 250px;
+  border-radius: 1rem;
+}
+
 .projetos ul li h2 {
   color: #3EA6C2;
   margin: 1rem;
